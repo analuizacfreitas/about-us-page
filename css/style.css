@@ -66,36 +66,47 @@ body {
     display: inline-block;
 }
 
+.our-work h1, .team-div h1, .box-item h2 {
+    border-bottom: 2px solid coral;
+    width: fit-content;
+}
+
+.our-work p, .team-p {
+    text-align: left;
+    width: 95%;
+    font-size: 17px;
+}
 
 .our-work img {
     width: 870px;
     align-content: center;
-
-}
-
-.team-div .container h1 {
-    text-align: center;
 }
 
 .team-div {
     margin-top: 50px;
-    text-align: center;
 }
 
 .box-item {
     display: inline-block;
-    width: 32%;
+    width: 31.5%;
+    text-align: left;
 }
 
-.box-item img{
+.box-item img {
     width: 230px;
     border: 1px solid black;
     border-radius: 10px;
-    margin: 10px;
 }
+
+.box-item p {
+    width: 97%;
+    margin-right: 10px;
+}
+
 .footer {
     margin-top: 50px;
 }
+
 .footer p {
     padding-top: 20px;
     text-align: center;
