@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -15,6 +16,13 @@ body {
     height: 65px;
     color:#083968;
     border-radius: 4px;
+}
+
+.logo-img {
+    float: left;
+    margin-top: 5px;
+    margin: 4px;
+    width: 50px;
 }
 
 .header h2 {
@@ -53,13 +61,13 @@ body {
     padding-top: 25px
 }
 
-.our-job {
+.our-work {
     margin-top: 10px;
     display: inline-block;
 }
 
 
-.our-job img {
+.our-work img {
     width: 870px;
     align-content: center;
 
@@ -85,7 +93,9 @@ body {
     border-radius: 10px;
     margin: 10px;
 }
-
+.footer {
+    margin-top: 50px;
+}
 .footer p {
     padding-top: 20px;
     text-align: center;
